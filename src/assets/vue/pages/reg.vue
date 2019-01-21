@@ -13,7 +13,7 @@
             </f7-list-item>
         </f7-list>
         <f7-list>
-            <f7-list-button @click="signUp">{{ $t('signIn') }}</f7-list-button>
+            <f7-list-button @click="signUp">{{ $t('signUp') }}</f7-list-button>
             <f7-list-button link="/">{{ $t('back') }}</f7-list-button>
         </f7-list>
     </f7-page>
