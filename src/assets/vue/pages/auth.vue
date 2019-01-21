@@ -48,7 +48,7 @@
                         this.$f7router.navigate('/main/');
                     },
                     (err) => {
-                        app.dialog.alert('Ooops...' + err.message);
+                        this.$f7.dialog.alert('Ooops...' + err.message);
                     }
                 )
             }
